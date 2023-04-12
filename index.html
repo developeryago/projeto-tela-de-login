@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <main>
+        <section id="login">
+        <div id="img">
+
+        </div>
+        </section>
+        <section id="form">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. <br> Faça login para acessar sua conta e configurar seu ambiente.</p>
+            <form action="login.php" method="post" autocomplete="on">
+                <div>
+                    <label for="iname">Nome</label>
+                    <input type="text" name="name" id="iname" required autocomplete="name">
+                </div>
+                <div>
+                    <label for="pass">Senha</label>
+                    <input type="password" name="password" id="pass"minlength="8" autocomplete="current-password" required>
+                </div>
+                <div>
+                    <button type="submit">Acessar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
