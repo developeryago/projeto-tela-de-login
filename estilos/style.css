@@ -12,8 +12,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+}
 body, html{
-    background:var(--cor3);
     width: 100vw;
     height: 100vh;
 }
@@ -37,19 +39,23 @@ section#login > div#img{
     height: 200px;
     margin: -10px;
     display: block;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 h1{
     text-align: center;
-    
     margin: 10px;
 }
 p{
-    text-align: left;
+    font-size: 0.9em;
     margin-bottom: 10px;
     line-height: 1.4em;
 }
-
 div#form{
-    padding: 2px;
     font-family: var(--font-padrão);
+}
+div#name, div#key{
+    background-color: var(--cor1);
+    margin: 10px;
+    border-radius: 5px;
 }
