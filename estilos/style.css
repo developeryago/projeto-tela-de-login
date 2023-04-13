@@ -49,13 +49,51 @@ h1{
 p{
     font-size: 0.9em;
     margin-bottom: 10px;
-    line-height: 1.4em;
+    line-height: 1.2em;
 }
 div#form{
     font-family: var(--font-padrão);
+    
 }
 div#name, div#key{
     background-color: var(--cor1);
-    margin: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    height: 40px;
     border-radius: 5px;
+}
+button{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: var(--cor3);
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color:#3993d3;
+    cursor: pointer;
+}
+a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--cor3);
+    border: 1px solid var(--cor3);
+}
+a:hover{
+    background-color:#3993d3;
+    cursor: pointer;
+    color: white;
+    border: none;
 }

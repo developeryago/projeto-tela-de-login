@@ -21,15 +21,18 @@
             <p>Seja bem-vindo(a) novamente. <br> Faça login para acessar sua conta e configurar seu ambiente.</p>
             <form action="login.php" method="post" autocomplete="on">
                 <div class="form" id="name">
-                    <label for="iname"><i class="material-symbols-outlined">person</i></label>
-                    <input type="text" name="name" id="iname" required autocomplete="name">
+                    <i class="material-symbols-outlined">person</i>
+                    <input type="email" name="name" id="iname" required autocomplete="email" placeholder="seu e-mail">
+                    <label for="iname"></label>
                 </div>
                 <div class="form"  id="key">
-                    <label for="pass"><i class="material-symbols-outlined">key</i></label>
-                    <input type="password" name="password" id="pass"minlength="8" autocomplete="current-password" required placeholder="min 8 dígitos">
+                    <i class="material-symbols-outlined">key</i>
+                    <input type="password" name="password" id="pass" minlength="8" autocomplete="current-password" required placeholder="senha (min 8 dígitos)">
+                    <label for="pass"></label>
                 </div>
                 <div>
                     <button type="submit">Entrar</button>
+                    <a href="esqueci.html">Esqueci minha senha<i class="material-symbols-outlined">mail</i></a>
                 </div>
             </form>
         </div>

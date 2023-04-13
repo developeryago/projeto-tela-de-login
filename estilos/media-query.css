@@ -6,11 +6,14 @@
     }
     section#login{
         width: 80vw;
+        height: 55vh;
+        border-radius: 25px;
     }
     section#login > div#img{
+        background-size: cover;
         float: left;
         width: 30%;
-        height: 104.5%;
+        height: 106.5%;
     }
     section#login > div#form{
         float: right;
