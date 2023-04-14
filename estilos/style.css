@@ -119,3 +119,25 @@ a:hover{
     color: white;
     border: none;
 }
+h1#error{
+    position: absolute;
+    font-size: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a#error{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    display: block;
+    width: 70px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    transform: translate(-50%, -50%);
+}
+a#error i{
+    background-color: #fd8b11;
+    color: white;
+}
