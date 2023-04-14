@@ -22,9 +22,16 @@
     }
     h1{
         font-size: 1.7em;
+        margin: 7px;
     }
     p{
         font-size: 1.2em;
+    }
+    input{
+        width: calc(100% - 11%);
+    }
+    button, a{
+        border-radius: 10px;
     }
 }
 
@@ -33,22 +40,37 @@
         background-image: linear-gradient(to top, var(--cor2), var(--cor1), var(--cor3));
     }
     section#login{
-        width: 990px;
+        width: 850px;
+        height: 65vh;
+        border-radius: 25px;
     }
     section#login > div#img{
         float: right;
         width: 50%;
-        height: 104.5%;
+        height: 105.5%;
     }
     section#login > div#form{
         float: left;
         width: 50%;
-        height: 100%;
+        height: 150%;
     }
     h1{
         font-size: 2em;
+        margin: 8px;
     }
     p{
         font-size: 1.3em;
+    }
+    div#name, div#key{
+        height: 55px;
+    }
+    input{
+        transform: translateY(-4%);
+        width: calc(100% - 11%);
+    }
+    button, a{
+        height: 2.5em;
+        font-size: 1.1em;
+        border-radius: 10px;
     }
 }
