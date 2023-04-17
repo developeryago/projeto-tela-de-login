@@ -5,8 +5,8 @@
         background-image: linear-gradient(to top, var(--cor2), var(--cor1), var(--cor3));
     }
     section#login{
-        width: 80vw;
-        height: 55vh;
+        width: 77vw;
+        height: 335px;
         border-radius: 25px;
     }
     section#login > div#img{
@@ -21,7 +21,7 @@
         height: 100%;
     }
     h1{
-        font-size: 1.7em;
+        font-size: 1.9em ;
         margin: 7px;
     }
     p{
@@ -55,7 +55,7 @@
         height: 150%;
     }
     h1{
-        font-size: 2em;
+        font-size: 2.2em;
         margin: 8px;
     }
     p{
